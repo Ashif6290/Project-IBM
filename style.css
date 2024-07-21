@@ -519,13 +519,14 @@ section h2 {
     margin-top: auto;
 }
 
+/* Locate Section CSS */
 #locate>div {
     background: var(--brand-02);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px 0;
+    padding: 80px ;
     border-radius: 12px;
     box-shadow: var(--card-shadow);
     transition: var(--hover-timing);
@@ -544,14 +545,14 @@ section h2 {
     line-height: 1.5;
     margin-bottom: 40px;
     width: 50%;
-    text-align: center;
+    text-align:center;
 }
 
 
 .btn-group {
     display: flex;
     flex-direction: row;
-    grid-gap: 16px;
+    grid-gap: 20px;
 }
 
 /* Footer CSS */
