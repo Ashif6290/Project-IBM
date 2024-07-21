@@ -280,14 +280,12 @@ button.btn-outline {
 .card-large.card-light>ul {
     color: var(--light-01);
 }
-
-
-
+/* Button CSS */
 button {
     font-size: 14px;
     font-weight: 600;
     line-height: 24px;
-    padding: 12px 24px;
+    padding: 8px 24px;
     border-radius: 48px;
     display: flex;
     flex-direction: row;
@@ -296,8 +294,6 @@ button {
     align-items: center;
     cursor: pointer;
 }
-
-
 
 button.btn-outline-light {
     color: var(--light-01);
@@ -318,6 +314,35 @@ button.btn-filled-dark {
     border: 2px solid var(--light-01);
     color: var(--text-01);
 }
+.sign-in-btn {
+    background-color: #EEEEEE;
+}
+.sign-in-btn:hover {
+    color: #00ADB5;
+    background-color: #222831;
+}
+/* Navbar css */
+.logoImage {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.quotation-btn {
+    background-color: #393E46;
+    color: #EEEEEE;
+    border: none;
+    padding: 10px 24px;
+    font-size: 14px;
+    border-radius: 48px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quotation-btn:hover {
+    color: #00ADB5;
+    background-color: #222831;
+}
 
 section,
 footer {
@@ -335,34 +360,35 @@ footer {
 }
 
 .input-text {
-    padding: 10px;
+    padding: 14px 50px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-left: 10px;
 }
 
 .btn-outline-dark {
     display: inline-flex;
     align-items: center;
-    padding: 10px 20px;
+    padding: 14px 20px;
     font-size: 16px;
-    color: #ffffff;
-    background-color: black;
+    color: #EEEEEE;
+    background-color: #393E46;
     border: 1px solid #333;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .btn-outline-dark:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: #222831;
+    color: #00ADB5;
 }
 
 section.hero {
     /*    width: 100%;*/
     height: auto;
     background:  url(/img/hero_img.png) no-repeat center right;
-    background-color: #289742;
+    background-color: #222831;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -384,7 +410,7 @@ section.hero h1 {
     line-height: 1.2;
     width: 40%;
 
-    color: var(--text-01);
+    color: #00ADB5;
 }
 
 .card-med {
@@ -558,12 +584,10 @@ section h2 {
 /* Footer CSS */
 footer {
     background: var(--text-01);
-    padding: 80px 80px 0px;
+    padding: 80px 80px 0px 100px;
     margin-top: 80px;
     display: flex;
 }
-
-
 
 footer ul {
     display: flex;
@@ -578,17 +602,15 @@ footer ul {
 
 }
 
-
 footer ul li a {
     color: var(--light-01);
     text-decoration: none;
     font-size: 14px;
 }
 
-
 footer ul li {
     color: var(--light-01);
-    padding: 0;
+    padding: 0px;
 
 }
 
@@ -881,29 +903,6 @@ footer ul li {
     }
 }
 
-/* Navbar css */
-.logoImage {
-    height: 40px;
-    width: 40px;
-    border-radius: 10px;
-}
-
-.quotation-btn {
-    background-color: #007bff;
-    /* Blue background */
-    color: white;
-    /* White text */
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.quotation-btn:hover {
-    background-color: #0056b3;
-}
 /* About Section CSS */
 /* .container-fluid {
     padding: 5rem 0;
