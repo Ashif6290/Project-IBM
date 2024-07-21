@@ -315,6 +315,20 @@ button.btn-outline-light {
     color: #00ADB5;
     background-color: #222831;
 }
+.btn-outline-hero {
+        background-color: #393E46;
+        color: #EEEEEE;
+        border: none;
+        padding: 14px 24px;
+        font-size: 14px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+}
+.btn-outline-hero:hover {
+    color: #00ADB5;
+    background-color: #222831;
+}
 /* Section CSS */
 section,
 footer {
@@ -502,7 +516,7 @@ section h2 {
 
 /* Locate Section CSS */
 #locate>div {
-    background: var(--brand-02);
+    background: #EEEEEE;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -524,11 +538,10 @@ section h2 {
 
 #locate p {
     line-height: 1.5;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     width: 50%;
     text-align:center;
 }
-
 
 .btn-group {
     display: flex;
@@ -538,7 +551,7 @@ section h2 {
 
 /* Footer CSS */
 footer {
-    background: var(--text-01);
+    background: #222831;
     padding: 80px 80px 0px 100px;
     margin-top: 80px;
     display: flex;
@@ -550,7 +563,7 @@ footer ul {
     grid-gap: 24px;
     box-shadow: none;
     flex: 1;
-    color: var(--light-01);
+    color: #EEEEEE;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 80px;
@@ -558,15 +571,14 @@ footer ul {
 }
 
 footer ul li a {
-    color: var(--light-01);
+    color: #00ADB5;
     text-decoration: none;
     font-size: 14px;
 }
-
 footer ul li {
-    color: var(--light-01);
+    color: #222831;
     padding: 0px;
-
+    
 }
 
 /* Media Queries */
