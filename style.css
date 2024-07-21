@@ -203,6 +203,9 @@ nav>#utility {
     font-weight: 800;
     line-height: 1.5;
 }
+.card-large li a{
+    text-decoration: none;
+}
 
 .card-large>ul> span {
     line-height: 30px;
@@ -312,7 +315,7 @@ button.btn-outline-light {
     color: #00ADB5;
     background-color: #222831;
 }
-
+/* Section CSS */
 section,
 footer {
     position: relative;
@@ -334,23 +337,6 @@ footer {
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-left: 10px;
-}
-
-.btn-outline-dark {
-    display: inline-flex;
-    align-items: center;
-    padding: 14px 20px;
-    font-size: 16px;
-    color: #EEEEEE;
-    background-color: #393E46;
-    border: 1px solid #333;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.btn-outline-dark:hover {
-    background-color: #222831;
-    color: #00ADB5;
 }
 
 section.hero {
@@ -427,11 +413,11 @@ section.hero h1 {
 }
 
 #serv-groom>.card-image {
-    background: linear-gradient(45deg, #45828C 0%, #A7D4D8 100%);
+    background: #00ADB5;
 }
 
 #serv-board>.card-image {
-    background: #F8EDED;
+    background: #EEEEEE;
 }
 
 .card-med:hover .card-image {
