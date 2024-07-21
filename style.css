@@ -197,9 +197,6 @@ nav>#utility {
     height: 100%;
     position: absolute;
     object-fit: contain;
-
-
-
 }
 
 .card-large a {
@@ -235,7 +232,14 @@ nav>#utility {
     font-size: 13px;
     /*    border: 1px solid red;*/
 }
-
+.card-large ul  p {
+    font-size: 15px;
+}
+.table_heading p,
+.table_heading span
+{
+    font-size: 15px !important;
+}
 
 .card-large#sup-dog,
 .card-med#sup-dog>.card-image {
@@ -257,7 +261,7 @@ button.btn-outline {
 
 .card-large#sup-bird,
 .card-med#sup-bird>.card-image {
-    background: linear-gradient(45deg, #EFEFEF 0%, #F2F2F2 100%);
+    background: linear-gradient(45deg, #EFEFEF 0%, #e4e4e4 100%);
 }
 
 
@@ -432,7 +436,7 @@ section.hero h1 {
 }
 
 #serv-board>.card-image {
-    background: linear-gradient(45deg, #EDDAA9 0%, #B87D93 100%);
+    background: #F8EDED;
 }
 
 .card-med:hover .card-image {
