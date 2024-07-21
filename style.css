@@ -143,27 +143,19 @@ nav>#utility {
 
 .card-large,
 .card-med {
-    /*    border: 1px solid orange;*/
     flex: 1;
-    /*    width: var(--nav-card-size);*/
-
     position: relative;
     display: flex;
     flex-direction: column;
-    /*    padding: 24px;*/
     transition: var(--hover-timing);
     cursor: pointer;
 }
-
 
 .card-large {
     box-shadow: var(--card-shadow);
     border-radius: 12px;
     overflow: hidden;
-    /*    padding-bottom: 32px;*/
 }
-
-
 
 .card-large:hover {
     box-shadow: var(--card-hover);
@@ -174,10 +166,8 @@ nav>#utility {
     transform: scale(1.01);
 }
 
-
 .card-image {
     width: 100%;
-    /*    height: 90%;*/
     aspect-ratio: 1/1;
     position: relative;
     border-radius: 12px;
@@ -197,20 +187,7 @@ nav>#utility {
     height: 100%;
     position: absolute;
     object-fit: contain;
-}
-
-.card-large a {
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.card-large>.card-image>a {
-    position: absolute;
-    bottom: 0;
-    z-index: 1;
-    width: 100%;
-    font-size: 24px;
-    line-height: 1.2;
+    border-radius: 15px;
 }
 
 .card-large>ul {
@@ -243,7 +220,7 @@ nav>#utility {
 
 .card-large#sup-dog,
 .card-med#sup-dog>.card-image {
-    background: linear-gradient(45deg, #463631 0%, #976C5B 100%);
+    background: #EEEEEE;
 }
 
 
@@ -255,19 +232,19 @@ button.btn-outline {
 
 .card-large#sup-cat,
 .card-med#sup-cat>.card-image {
-    background: linear-gradient(45deg, #F6AE6C 0%, #ECBD73 100%);
+    background: #EEEEEE;
 }
 
 
 .card-large#sup-bird,
 .card-med#sup-bird>.card-image {
-    background: linear-gradient(45deg, #EFEFEF 0%, #e4e4e4 100%);
+    background: #EEEEEE;
 }
 
 
 .card-large#sup-fish,
 .card-med#sup-fish>.card-image {
-    background: linear-gradient(45deg, #1E4782 0%, #709DDF 100%);
+    background: #EEEEEE;
 }
 
 
@@ -296,23 +273,15 @@ button {
 }
 
 button.btn-outline-light {
-    color: var(--light-01);
-    background: none;
-    color: var(--light-01);
+    color: #EEEEEE;
+    background: #393E46;
     border: 2px solid var(--light-01);
-}
-
-button.btn-filled-dark {
-    color: var(--light-01);
-    background: var(--text-01);
-    color: var(--light-01);
-    border: 2px solid var(--text-01);
 }
 
 .btn-outline-light:hover {
-    background: var(--light-01);
+    background: #222831;
     border: 2px solid var(--light-01);
-    color: var(--text-01);
+    color: #00ADB5;
 }
 .sign-in-btn {
     background-color: #EEEEEE;
