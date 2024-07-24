@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quote-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quote-text {
+    padding: 40px;
+    flex: 2;
+    background-color: #f8f9fa;
+}
+
+.quote-text h2 {
+    color: #00ADB5;
+    font-size: 18px;
+    margin: 0;
+}
+
+.quote-text h1 {
+    color: #333;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.quote-text p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat .number {
+    font-size: 36px;
+    color: #00ADB5;
+    font-weight: bold;
+}
+
+.stat .label {
+    font-size: 14px;
+    color: #222831;
+}
+
+.quote-form {
+    flex: 1;
+    background-color: #00ADB5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.quote-form form {
+    width: 100%;
+}
+
+.quote-form input,
+.quote-form select,
+.quote-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.quote-form input::placeholder,
+.quote-form select::placeholder {
+    color: #666;
+}
+
+.quote-form button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.quote-form button:hover {
+    background-color: #555;
+}
+
+@media (max-width: 768px) {
+    .quote-container {
+        flex-direction: column;
+    }
+
+    .quote-form {
+        padding: 20px;
+    }
+
+    .quote-text,
+    .quote-form {
+        width: 100%;
+        flex: none;
+    }
+}

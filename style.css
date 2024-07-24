@@ -297,6 +297,13 @@ button.btn-outline-light {
     color: #222831;
     background-color: #00ADB5;
 }
+.quotation-btn a {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+.quotation-btn a:hover {
+    color: #00ADB5;
+} 
 /* Navbar css */
 .logoImage {
     height: 40px;
