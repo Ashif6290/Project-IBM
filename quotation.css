@@ -3,9 +3,53 @@ body {
     background-color: #f8f9fa;
     margin: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
+}
+
+nav {
+    width: 100%;
+    background: #222831;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-right: 130px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
 }
 
 .quote-container {
@@ -16,6 +60,7 @@ body {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
 .quote-text {
@@ -31,7 +76,7 @@ body {
 }
 
 .quote-text h1 {
-    color: #333;
+    color: #393E46;
     font-size: 36px;
     margin: 10px 0;
 }
@@ -61,7 +106,7 @@ body {
 
 .stat .label {
     font-size: 14px;
-    color: #222831;
+    color: #333;
 }
 
 .quote-form {
@@ -115,5 +160,37 @@ body {
     .quote-form {
         width: 100%;
         flex: none;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+        background-color: #333;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav-active {
+        display: flex;
+    }
+
+    .toggle .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .toggle .line2 {
+        opacity: 0;
+    }
+
+    .toggle .line3 {
+        transform: rotate(45deg) translate(-5px, -6px);
     }
 }
