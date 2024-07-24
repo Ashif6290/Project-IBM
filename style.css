@@ -289,9 +289,13 @@ button.btn-outline-light {
 .sign-in-btn {
     background-color: #EEEEEE;
 }
+.sign-in-btn a {
+    text-decoration: none;
+    color: #222831;
+}
 .sign-in-btn:hover {
-    color: #00ADB5;
-    background-color: #222831;
+    color: #222831;
+    background-color: #00ADB5;
 }
 /* Navbar css */
 .logoImage {
